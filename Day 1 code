@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+ int main(){
+int a;
+
+printf("enter no.of milli litres :");
+scanf("%d",&a);
+if(a<2000){
+    printf("not followed the doctor suggession");
+    
+}else if(a=2000){
+    printf("follwed the doctor suggestion");
+}else{
+    printf("follwed the doctor suggestion ");
+}
+ return 0;
+}
