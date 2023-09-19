@@ -1,0 +1,11 @@
+#include <stdio.h>
+main()
+{
+int a,b,c, result;
+printf("enter the money x has:");
+printf("enter the amount y has:");
+scanf("%d%d%d",&a,&b,&c);
+result=(a+b)/c;
+printf("the number we can buy with the money=%d",result);
+return 0;
+}
